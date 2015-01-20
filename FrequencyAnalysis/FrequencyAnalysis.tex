@@ -13,15 +13,13 @@ cipherText = "GUVF VF GUR RAPELCGRQ GRKG LBH JNAG GB QRPBQR"
 smashText =  ""
 for line in cipherText:
 	smashText = smashText + line.upper()
-	
 print smashText
 \end{python}
 Make sure to evaluate the cell above before running the cell below.  The output of the cell below is the relative frequency of each letter in the cipher alphabet.
 
 \begin{python}
 cipherAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
-totalChars = float(smashText.count("")),
+totalChars = float(smashText.count(""))
 countList = [(letter,float(smashText.count(letter))/totalChars*100) for letter in cipherAlphabet]
 sortedValues = sorted(countList, key=lambda freq: freq[1], reverse = True)
 for i in sortedValues:
@@ -38,6 +36,8 @@ plaintextAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O'
 plaintextAlphabet = ['A','B','C','D','E','F','t','H','I','J','K','L','M','N','O','P','Q','e','S','T','U','V','W','X','Y','Z']
 keyDict = dict(zip(cipherAlphabet,plaintextAlphabet))
 plainText = smashText
+for i, j in keyDict.iteritems():
+	plainText = plainText.replace(i, j)
 print plainText
 \end{python}
 
@@ -47,6 +47,8 @@ We can make some educated guesses from here. Note that we won't be guaranteed a 
 plaintextAlphabet = ['n','o','p','D','r','s','t','u','I','w','x','y','M','a','O','c','d','e','S','T','h','i','W','X','Y','Z']
 keyDict = dict(zip(cipherAlphabet,plaintextAlphabet))
 plainText = smashText
+for i, j in keyDict.iteritems():
+	plainText = plainText.replace(i, j)
 print plainText
 \end{python}
 \end{document}
