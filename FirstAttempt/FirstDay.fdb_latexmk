@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1421773065 "FirstDay.tex" "FirstDay.pdf" "FirstDay" 1421773067
+["pdflatex"] 1421774315 "FirstDay.tex" "FirstDay.pdf" "FirstDay" 1421774317
   "/Users/crgibbon/Library/texmf/tex/latex/ximera.cls" 1421684980 20121 d1719d0a5ce6315b95d10f282f2b1810 ""
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -102,8 +102,6 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty" 1361575838 13294 f63af559496acbb4ffecc2de353745eb ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty" 1359763108 13829 94730e64147574077f8ecfea9bb69af4 ""
-  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd" 1359763108 961 6518c6525a34feb5e8250ffa91731cff ""
-  "/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd" 1359763108 961 d02606146ba5601b5645f987c92e6193 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1362954379 2412 2d98314dc5be38f455f8890deeb2d091 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty" 1362954379 4357 ad30ad08920902fc9b38caf35a3b0496 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty" 1362954379 79178 b2e326c351e876df0e5e23df2e02441b ""
@@ -163,11 +161,11 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xifthen/xifthen.sty" 1240073024 5650 b146a211772e4cfd4ca29af3aac8c3fc ""
-  "FirstDay.aux" 1421773067 770 018aa9dd67c6edeca40d8e4774dc17e6 ""
-  "FirstDay.out" 1421773067 51 bc86ebcb6a4b48987a3dc2c45c0e23e9 ""
-  "FirstDay.tex" 1421773063 490 6b2b870ab1ea6979ab1907b35e58eaaa ""
+  "FirstDay.aux" 1421774317 770 018aa9dd67c6edeca40d8e4774dc17e6 ""
+  "FirstDay.out" 1421774317 51 bc86ebcb6a4b48987a3dc2c45c0e23e9 ""
+  "FirstDay.tex" 1421774315 499 14a55283ea87af925b0ada6f91345315 ""
   (generated)
-  "FirstDay.pdf"
-  "FirstDay.out"
-  "FirstDay.log"
   "FirstDay.aux"
+  "FirstDay.out"
+  "FirstDay.pdf"
+  "FirstDay.log"
