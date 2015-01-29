@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1422565895 "FrequencyAnalysis.tex" "FrequencyAnalysis.pdf" "FrequencyAnalysis" 1422565897
+["pdflatex"] 1422566191 "FrequencyAnalysis.tex" "FrequencyAnalysis.pdf" "FrequencyAnalysis" 1422566194
   "/Users/crgibbon/Library/texmf/tex/latex/ximera.cls" 1421684980 20121 d1719d0a5ce6315b95d10f282f2b1810 ""
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -163,11 +163,11 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xifthen/xifthen.sty" 1240073024 5650 b146a211772e4cfd4ca29af3aac8c3fc ""
-  "FrequencyAnalysis.aux" 1422565897 677 019ba9df63fe6963ce16a3cdef705c0c ""
-  "FrequencyAnalysis.out" 1422565897 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "FrequencyAnalysis.tex" 1422565895 1142 18d63b5ba5caadfe422e38776e179722 ""
+  "FrequencyAnalysis.aux" 1422566194 677 019ba9df63fe6963ce16a3cdef705c0c ""
+  "FrequencyAnalysis.out" 1422566193 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "FrequencyAnalysis.tex" 1422566191 1154 613487cbe1b33beed621101f52281159 ""
   (generated)
-  "FrequencyAnalysis.out"
-  "FrequencyAnalysis.aux"
   "FrequencyAnalysis.log"
+  "FrequencyAnalysis.aux"
   "FrequencyAnalysis.pdf"
+  "FrequencyAnalysis.out"

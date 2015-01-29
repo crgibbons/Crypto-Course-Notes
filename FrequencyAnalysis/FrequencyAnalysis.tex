@@ -12,11 +12,11 @@ cipherText = "GUVF VF GUR RAPELCGRQ GRKG LBH JNAG GB QRPBQR"
 
 cipherText = cipherText.upper()
 
-print "Message to decipher: " + cipherText
+print "Message to decipher: " + cipherText + ""
 
 cipherAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-totalChars = float(smashText.count(""))
+totalChars = float(cipherText.count(""))
 
 countList = [(letter,float(cipherText.count(letter))/totalChars*100) for letter in cipherAlphabet]
 
