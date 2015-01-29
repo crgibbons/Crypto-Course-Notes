@@ -1,8 +1,9 @@
 \documentclass[handout]{ximera}
 
 \title{Frequency Analysis}
-\begin{abstract}{Let's explore frequency analysis!}
 \begin{document}
+\begin{abstract}{Let's explore frequency analysis!}\end{abstract}
+
 
 Enter the text you want to decode in the first line of the next cell.  The output will be one big block of text that follows the uppercase convention for encrypted text."
 
@@ -12,10 +13,6 @@ smashText =  ""
 for line in cipherText:
 	smashText = smashText + line.upper()
      	print smashText
-\end{python}
-Make sure to evaluate the cell above before running the cell below.  The output of the cell below is the relative frequency of each letter in the cipher alphabet.
-
-\begin{python}
 cipherAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
 totalChars = float(smashText.count("")),
@@ -25,25 +22,9 @@ for i in sortedValues:
 	print i
 \end{python}
 
-The following is a frequency table for the english language:
+The following is a frequency table for the english language: ....coming soon....
 
 
 Based on this information, we might expect $G$ and $R$ to represent$ e$ and $t$ in some order.  Based on positions in the text, we guess that $G \leftrightarrow t$ and $R \leftrightarrow e$.
 
-\begin{python}
-plaintextAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-plaintextAlphabet = ['A','B','C','D','E','F','t','H','I','J','K','L','M','N','O','P','Q','e','S','T','U','V','W','X','Y','Z']
-keyDict = dict(zip(cipherAlphabet,plaintextAlphabet))
-plainText = smashText
-print plainText
-\end{python}
-
-We can make some educated guesses from here. Note that we won't be guaranteed a unique solution for our plaintext alphabet because some of the characters in the cipher alphabet are never used.  But we can make enough guesses to get enough of the plaintext alphabet to decrypt the message.
-  
-\begin{python}
-plaintextAlphabet = ['n','o','p','D','r','s','t','u','I','w','x','y','M','a','O','c','d','e','S','T','h','i','W','X','Y','Z']
-keyDict = dict(zip(cipherAlphabet,plaintextAlphabet))
-plainText = smashText
-print plainText
-\end{python}
 \end{document}
