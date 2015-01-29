@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1422492025 "NumbersInOtherBases.tex" "NumbersInOtherBases.pdf" "NumbersInOtherBases" 1422492027
+["pdflatex"] 1422493709 "NumbersInOtherBases.tex" "NumbersInOtherBases.pdf" "NumbersInOtherBases" 1422493712
   "/Users/crgibbon/Library/texmf/tex/latex/ximera.cls" 1421684980 20121 d1719d0a5ce6315b95d10f282f2b1810 ""
   "/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -163,11 +163,11 @@
   "/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
   "/usr/local/texlive/2014/texmf-dist/tex/latex/xifthen/xifthen.sty" 1240073024 5650 b146a211772e4cfd4ca29af3aac8c3fc ""
-  "NumbersInOtherBases.aux" 1422492027 895 0e3338e336cc1b968de247f0d871cad0 ""
-  "NumbersInOtherBases.out" 1422492027 70 f8fff7421210059fd13e561efe2330e7 ""
-  "NumbersInOtherBases.tex" 1422492024 1911 9b21ea6f995345b365ac90cd22aeb58c ""
+  "NumbersInOtherBases.aux" 1422493711 895 0e3338e336cc1b968de247f0d871cad0 ""
+  "NumbersInOtherBases.out" 1422493711 70 f8fff7421210059fd13e561efe2330e7 ""
+  "NumbersInOtherBases.tex" 1422493709 2305 824f27d94da97f80806c8e4b7801f456 ""
   (generated)
-  "NumbersInOtherBases.log"
-  "NumbersInOtherBases.out"
   "NumbersInOtherBases.pdf"
   "NumbersInOtherBases.aux"
+  "NumbersInOtherBases.log"
+  "NumbersInOtherBases.out"
