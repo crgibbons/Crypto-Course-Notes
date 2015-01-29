@@ -9,14 +9,13 @@ Enter the text you want to decode in the first line of the next cell.  The outpu
 
 \begin{python}
 cipherText = "GUVF VF GUR RAPELCGRQ GRKG LBH JNAG GB QRPBQR"
-smashText =  ""
-for line in cipherText:
-	smashText = smashText + line.upper()
-     	print smashText
+cipherText = cipherText.upper()
+print "Message to decipher: " + cipherText
+
 cipherAlphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-totalChars = float(smashText.count("")),
-countList = [(letter,float(smashText.count(letter))/totalChars*100) for letter in cipherAlphabet]
+totalChars = float(smashText.count(""))
+countList = [(letter,float(cipherText.count(letter))/totalChars*100) for letter in cipherAlphabet]
 sortedValues = sorted(countList, key=lambda freq: freq[1], reverse = True)
 for i in sortedValues:
 	print i
